@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a060012df00089e4a98051ed80bf9507, type: 3}
+  m_Name: Mages
+  m_EditorClassIdentifier: 
+  className: Mages
+  productId: class_mages
+  owned: 0
+  towers:
+  - name: Fire
+    prefab: {fileID: 6772490418033334344, guid: acd9ff157e8bc074cbd563efe461d8ae,
+      type: 3}
+    icon: {fileID: 21300000, guid: d52efd241050a8b47a343185882c45cd, type: 3}
+    data: {fileID: 11400000, guid: ca99ba73076d81c4c871157a4f786496, type: 2}
+  - name: Water
+    prefab: {fileID: 6267611035822334306, guid: ace41b2459a8c4f49a5afc92cecd7e0c,
+      type: 3}
+    icon: {fileID: 21300000, guid: c5b5721b9c37c6248ba8d0e9912dff41, type: 3}
+    data: {fileID: 11400000, guid: d7d286bbd9884024b90857bb7a2bc700, type: 2}
+  - name: Earth
+    prefab: {fileID: 7145187617602903572, guid: ace8741d4f5b9e04984fd2e54c95ab43,
+      type: 3}
+    icon: {fileID: 21300000, guid: 8f9909ce5407f664b9ae1474dd527bca, type: 3}
+    data: {fileID: 11400000, guid: e4ca03d2cf5e27b428faf09696936946, type: 2}
+  - name: Air
+    prefab: {fileID: 4191998515475435161, guid: d7929d9b40d1f2b4fb31de75eade40ca,
+      type: 3}
+    icon: {fileID: 21300000, guid: af33db43c7211a94fa110960e922d969, type: 3}
+    data: {fileID: 11400000, guid: fcd59b1a909aafb4b958ad3065a9f4ed, type: 2}

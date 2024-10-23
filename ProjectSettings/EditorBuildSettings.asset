@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/TowerDefenseMultiplayer/Scenes/Intro.unity
+    guid: c4a6ef377bb8be94db538b73edc38a60
+  - enabled: 1
+    path: Assets/TowerDefenseMultiplayer/Scenes/Lobby.unity
+    guid: d8d103061f9a73c4faf95d9abe86a454
+  - enabled: 1
+    path: Assets/TowerDefenseMultiplayer/Scenes/Map_1.unity
+    guid: 315bea94da60b5f44ae60bc4a0fafcbd
+  - enabled: 1
+    path: Assets/TowerDefenseMultiplayer/Scenes/Map_2.unity
+    guid: d9882584e85764a008e75707fe5878ab
+  - enabled: 1
+    path: Assets/TowerDefenseMultiplayer/Scenes/Map_UI.unity
+    guid: efc9f4ed55ff342f393a6663068713b3
+  - enabled: 1
+    path: Assets/TowerDefenseMultiplayer/Models/Scene.unity
+    guid: a943d699a91b3a949ae7f014801de7e7
+  m_configObjects: {}

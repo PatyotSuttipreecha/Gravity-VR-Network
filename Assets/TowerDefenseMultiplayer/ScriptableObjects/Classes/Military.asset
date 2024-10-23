@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a060012df00089e4a98051ed80bf9507, type: 3}
+  m_Name: Military
+  m_EditorClassIdentifier: 
+  className: Military
+  productId: class_military
+  owned: 1
+  towers:
+  - name: Bunker
+    prefab: {fileID: 1472665365277788501, guid: 442e6134b0f631c4885d3745a2a95522,
+      type: 3}
+    icon: {fileID: 21300000, guid: 839e47bdebc7a44508253b083c66a4df, type: 3}
+    data: {fileID: 11400000, guid: 5731577664e0b44d89c3b527ec73340d, type: 2}
+  - name: Turret
+    prefab: {fileID: 5311512265633243948, guid: 801568555128ce4498dab2ecf9f65819,
+      type: 3}
+    icon: {fileID: 21300000, guid: 40015cf45466b4d04ba32adb47050e18, type: 3}
+    data: {fileID: 11400000, guid: 0bf82aac3d767c144a7936c9032739ba, type: 2}
+  - name: AA Gun
+    prefab: {fileID: 4726144413512006261, guid: 49df47c3d8821b641b00d1880001f464,
+      type: 3}
+    icon: {fileID: 21300000, guid: 7268c9905f56448bfbf8dc756b7096ca, type: 3}
+    data: {fileID: 11400000, guid: 225e9e4a266a94e4fafb0a6efd5223ee, type: 2}
+  - name: Tesla
+    prefab: {fileID: 1805916986844580990, guid: d5d6e225f4f89f246b69afa3a888950f,
+      type: 3}
+    icon: {fileID: 21300000, guid: f6b4d39c910144b0abde7e72c6a52b73, type: 3}
+    data: {fileID: 11400000, guid: db4d2fccf8dd1d840aaf453c8631ae25, type: 2}

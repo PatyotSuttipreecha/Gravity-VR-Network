@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a060012df00089e4a98051ed80bf9507, type: 3}
+  m_Name: Knights
+  m_EditorClassIdentifier: 
+  className: Knights
+  productId: class_knights
+  owned: 0
+  towers:
+  - name: Arrow
+    prefab: {fileID: 4136451581276885610, guid: f5abd351833fbfc41b6498cad4276c00,
+      type: 3}
+    icon: {fileID: 21300000, guid: 17680993472e948aaab881761e555e32, type: 3}
+    data: {fileID: 11400000, guid: 19d9d16b2349e45cebd48178705be541, type: 2}
+  - name: Cannon
+    prefab: {fileID: 7336057059793427818, guid: f7e876494267d49448eebbbb9c9ddf75,
+      type: 3}
+    icon: {fileID: 21300000, guid: e445805e8bf484417ae89a072701de90, type: 3}
+    data: {fileID: 11400000, guid: 8c6bd402af0c04026b540d52e2c0ce0b, type: 2}
+  - name: Ballista
+    prefab: {fileID: 169743025732782203, guid: 09139ef4dc6131f45a0e7fde3227e595, type: 3}
+    icon: {fileID: 21300000, guid: 51fc2364ff3844045807c824ee0d4e11, type: 3}
+    data: {fileID: 11400000, guid: f63ea38b2d8924fa3b4d2a9fc0b43559, type: 2}
+  - name: Catapult
+    prefab: {fileID: 1812060405748813679, guid: f4f3d6ee1aca8924cbe5e54c86b71984,
+      type: 3}
+    icon: {fileID: 21300000, guid: c620e14c31e56403eba346172ec047cd, type: 3}
+    data: {fileID: 11400000, guid: 98568d810500f4e30aeaba43c78439ea, type: 2}

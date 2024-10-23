@@ -1,0 +1,11 @@
+**************************************
+CHANGELOG
+**************************************
+v1.0.1
+- fixed wrong Layer settings in TagManager breaking tower placement
+- fixed bug spawning all players on same location due to incorrect local client ID
+- fixed bug displaying player 1 stats to all players due to incorrect local client ID
+- fixed hiding mobile scroll indicators on WebGL build
+
+v1.0
+- Initial Version
